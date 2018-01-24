@@ -92,10 +92,10 @@ myManageHook = composeAll
 -- keys
 mKeys = [ ((modMask, xK_d), spawn $ rofi)
         , ((modMask, xK_f), spawn $ "firefox" )
-        , ((modMask .|. controlMask              , xK_m ), spawn $ "firefox -P manage" )
-        , ((modMask .|. controlMask              , xK_n ), spawn $ "firefox -P social" )
+        , ((modMask .|. controlMask              , xK_m ), spawn $ "firefox -P Manage" )
+        , ((modMask .|. controlMask              , xK_n ), spawn $ "firefox -P Social" )
         , ((modMask .|. controlMask              , xK_p ), spawn $ "firefox -P default" )
-        , ((modMask .|. controlMask              , xK_l ), spawn $ "firefox -P study" )
+        , ((modMask .|. controlMask              , xK_l ), spawn $ "firefox -P Study" )
         , ((modMask, xK_Left), prevWS)
         , ((modMask, xK_Right), nextWS)
         , ((modMask                 .|. shiftMask, xK_z    ), spawn "slock"                 )
